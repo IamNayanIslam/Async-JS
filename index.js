@@ -27,3 +27,5 @@ console.log("than this"); // this task also will be sent to the call stack
 //this two task will create a queue in the call stack the first task on line 26 will be executed first then the task on line 27 after that the call stack will be empty
 
 //after that the event loop will be notified that the call stack is empty then it will send the task from task queue to the call stack and the task inside setTimeout will be executed
+
+//callback functions:A callback function is a function passed as an argument of another function, to be called back, later in time. like we can see in the setTimeout() function above there is two argument a function (which is callback function) and a number (of milliseconds). The callback function will be called after the specified time (milliseconds)
